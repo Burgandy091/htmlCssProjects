@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./08-positions.css">
+    <title>Positions</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav"></div>
+        <div class="poistioning"></div>
+        <div class="lotsoftext"></div>
+    </div>
+<div class="lotsoftext">
+    <p>here is some text that you can scroll and see the div with a fixed position stay where it is tild to .</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero maxime rem laboriosam nesciunt quasi non repellendus ipsam itaque dolore. A quasi id culpa quibusdam dolor. Assumenda perspiciatis blanditiis dicta nesciunt?</p>
+</div>
+
+<div class="position">
+    <p>the position property specifies the type of positioning method used for an element.</p>
+    <p>the four position values are:</p>
+    <ul>
+        <li><strong>fixed</strong> this eill pin something to a spot and it will stay there as the user scrolls. (ex. nav bars) Fixed positon takes elements out of th enormal document flow</li>
+        <li><strong>static:</strong> this is the default setting. It is not affted by top, bottom, left, and right properties. Its is always positioned accoding to the noral flow of the page.</li>
+        <li><strong>relative:</strong> does not take the element out of the normal document flow. Still appears within its space/div/cpmtaomer, but allows it to be offset a but from the top, bottom, right, and left. there properties will move it away from its normal position.other content will not be adjusted to fit into any gap left by the element.</li>
+        <li><strong>absolute:</strong> takes element out of the normal document flow. If a parent element position is set to relative, and the shild element is set to absolute, the child element's new (0,0) coordinate will be the upper left hand corner of the parent element instead of the whole page.</li>
+        <p>>The<strong>z-index</strong> property allows you tooverride the normal stacking order of the page. the default z-index is 0, and you can set the value to be positive or negative. An element with a greater z-index, pr don't have one assigned, the element position last in the HTML will show on top. You must have position assigned in the order to assign a z-index. </p>
+
+    </ul>
+
+</div>
+
+
+</body>
+</html>

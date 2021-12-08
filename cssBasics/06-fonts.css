@@ -1,0 +1,35 @@
+p {
+    /* Here we see out font family being Times New Roman, and then talling back to Times, then to a serif font*/
+    font-family: 'Times New Roman',Times, serif;
+} 
+
+h2 {
+    font-family: Ariel, Helvetica, sans-serif;
+}
+
+dt {
+    /*One of the values we can use for fonts-wight is bold, rather than a numner */
+    font-weight: bold;
+}
+/*we're using pixels to declare the dont-size*/
+font-size: 20px;
+
+/*Where px is an absolute length, rem is the size of an m base on the root font-size */
+margin-top: 1rem
+
+
+}
+
+#family {
+    font-family: 'trebuchet MS', 'lucida Sans Unicode', 'Lucida Grande' 'lucida Sans', Arial, sans-serif;
+
+}
+ 
+#size {
+    font-size: x-large;
+}
+
+#weight {
+    font-weight: bold;
+
+}
